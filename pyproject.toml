@@ -1,0 +1,17 @@
+[project]
+name = "finance-exercices"
+version = "0.1.0"
+description = "A collection of my personal finance exercises"
+readme = "README.md"
+authors = [
+    { name = "José Cañete", email = "josecannete@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+finance-exercices = "finance_exercices:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
