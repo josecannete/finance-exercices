@@ -3,11 +3,11 @@ from src.finance_exercices.fi import financial_independence, years_to_fi, years_
 
 def main():
     # Example inputs
-    current_savings = 10_000_000
-    annual_expenses = 24_000_000
+    current_savings = 80_000_000
+    annual_expenses = 18_000_000
     withdrawal_rate = 0.04
-    annual_investment = 3_000_000
-    annual_return_rate = 0.08
+    annual_investment = 100_000_000
+    annual_return_rate = 0.10
     inflation_rate = 0.03
 
     # Calculate financial independence target

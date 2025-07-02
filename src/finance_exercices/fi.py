@@ -36,6 +36,7 @@ def years_to_fi(current_savings, annual_expenses, withdrawal_rate, annual_invest
         current_savings *= (1 + real_return_rate)
         annual_expenses *= (1 + inflation_rate)  # Adjust expenses for inflation
         target_amount = financial_independence(annual_expenses, withdrawal_rate)  # Recalculate target amount
+        print(f"Year {years}: Current Savings: CLP {current_savings:,.0f}, Target Amount: CLP {target_amount:,.0f}, Annual Expenses: CLP {annual_expenses:,.0f}")
         years += 1
     return years
 
